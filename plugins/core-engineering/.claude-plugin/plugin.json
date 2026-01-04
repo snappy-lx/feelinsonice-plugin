@@ -1,0 +1,17 @@
+{
+  "name": "core-engineering",
+  "version": "1.0.0",
+  "description": "Core engineering plugin with systematic development methodology - 80% planning/review, 20% execution",
+  "author": "xiaoliang",
+  "mcpServers": {
+    "pw": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "feelinsonice",
+  "version": "1.0.0",
+  "description": "Feelinsonice plugin marketplace - a collection of Claude Code plugins",
+  "author": "xiaoliang",
+  "plugins": [
+    "plugins/core-engineering"
+  ]
+}
