@@ -1,9 +1,24 @@
 {
   "name": "feelinsonice",
-  "version": "1.0.0",
-  "description": "Feelinsonice plugin marketplace - a collection of Claude Code plugins",
-  "author": "xiaoliang",
+  "owner": {
+    "name": "xiaoliang",
+    "url": "https://github.com/snappy-lx"
+  },
+  "metadata": {
+    "description": "Feelinsonice plugin marketplace - a collection of Claude Code plugins",
+    "version": "1.0.0"
+  },
   "plugins": [
-    "plugins/core-engineering"
+    {
+      "name": "core-engineering",
+      "description": "Systematic development methodology with 80% planning/review, 20% execution. Includes specialized agents, commands, and skills for structured development workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "xiaoliang"
+      },
+      "homepage": "https://github.com/snappy-lx/feelinsonice-plugin",
+      "tags": ["engineering", "workflow", "planning", "code-review"],
+      "source": "./plugins/core-engineering"
+    }
   ]
 }
